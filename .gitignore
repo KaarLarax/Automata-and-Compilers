@@ -1,0 +1,6 @@
+# Ignorar todos los archivos por defecto
+*
+
+# Excluir de la ignorancia los archivos .l y .txt
+!*.l
+!*.txt
