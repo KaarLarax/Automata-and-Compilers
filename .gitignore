@@ -1,6 +1,8 @@
 # Ignorar todos los archivos por defecto
 *
 
+# No ignorar las carpetas específicas
+!*/
+
 # Excluir de la ignorancia los archivos .l y .txt
 !*.l
-!*.txt
