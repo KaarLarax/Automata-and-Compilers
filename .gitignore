@@ -4,5 +4,5 @@
 # No ignorar las carpetas específicas
 !*/
 
-# Excluir de la ignorancia los archivos .l y .txt
+# Excluir de la ignorancia los archivos .l
 !*.l
