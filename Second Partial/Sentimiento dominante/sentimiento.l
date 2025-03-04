@@ -13,7 +13,6 @@ void calculo(char* p, int x) {
 		strcpy(sentimientoPredominante, p);
 	}
 }
-
 extern FILE *yyin; 
 %}
 
