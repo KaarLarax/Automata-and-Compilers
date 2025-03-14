@@ -5,6 +5,6 @@
 !*/
 
 # Excluir de la ignorancia los archivos .l, .y, .gitignore
-!*.l\
-!*.y\
-!*.gitignore\
+!*.l
+!*.y
+!.gitignore
