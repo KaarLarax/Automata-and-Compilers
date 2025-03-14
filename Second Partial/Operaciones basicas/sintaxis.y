@@ -40,5 +40,6 @@ int main() {
     printf("beginning\n");
     int res = yyparse();
     printf("ending, %d\n", res);
+    
     return(res);
 }
