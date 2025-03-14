@@ -4,7 +4,6 @@
 # No ignorar las carpetas específicas
 !*/
 
-# Excluir de la ignorancia los archivos .l, .y, .gitignore
+# Excluir de la ignorancia los archivos .l, .y
 !*.l
 !*.y
-!.gitignore
