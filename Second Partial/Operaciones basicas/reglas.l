@@ -18,13 +18,13 @@ int yyerror(char* s);
     return NUMERO;
 }
 
-[(\-)+/*] {
+[+\-*/] {
     return OPERADOR;
 }
 
-[ \t\f\v] ;
+[ \t\f\v\n]+  /* Ignorar espacios y saltos de línea */
 
-. { return *yytext; }
+. { printf("Carácter no reconocido: %s\n", yytext); }
 
 %%
 
