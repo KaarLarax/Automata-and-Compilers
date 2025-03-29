@@ -10,7 +10,7 @@ ENTERO    {DIGITO}+
 .         ;  // Ignorar cualquier otro carácter
 %%
 int main(int argc, char **argv) {
-    printf("Ingrese el número: \n");
+    printf("Ingrese el numero: \n");
     yylex();
     return 0;
 }
