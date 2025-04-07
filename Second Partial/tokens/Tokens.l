@@ -11,8 +11,8 @@
 
 (00[01]*)|([01]*00) { printf("TOKEN: Palabra binaria iniciando o terminando con '00': %s\n", yytext); }
 
-[0-9]+          { printf("TOKEN: Número entero: %s\n", yytext); }
-[0-9]+\.[0-9]+  { printf("TOKEN: Número decimal: %s\n", yytext); }
+[0-9]+          { printf("TOKEN: NÃºmero entero: %s\n", yytext); }
+[0-9]+\.[0-9]+  { printf("TOKEN: NÃºmero decimal: %s\n", yytext); }
 
 class           { printf("TOKEN: Palabra reservada de Java: %s\n", yytext); }
 public          { printf("TOKEN: Palabra reservada de Java: %s\n", yytext); }
@@ -22,7 +22,7 @@ return          { printf("TOKEN: Palabra reservada de Java: %s\n", yytext); }
 
 [A-Z][a-z]*     { printf("TOKEN: Nombre propio: %s\n", yytext); }
 
-[ \t\n]         { /* Ignorar espacios, tabulaciones y saltos de línea */ }
+[ \t\n]         { /* Ignorar espacios, tabulaciones y saltos de lÃ­nea */ }
 
 .               { printf("TOKEN NO RECONOCIDO: %s\n", yytext); }
 %%
